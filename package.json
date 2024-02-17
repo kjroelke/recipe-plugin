@@ -1,22 +1,29 @@
 {
-	"name": "kjr-wordpress-recipe-plugin",
-	"version": "1.0.0",
-	"description": "A WordPress",
-	"main": "build/index.js",
-	"prettier": "@wordpress/prettier-config",
-	"browserslist": [
-		"extends @wordpress/browserslist-config"
-	],
-	"scripts": {
-		"build": "wp-scripts build",
-		"check-engines": "wp-scripts check-engines",
-		"packages-update": "wp-scripts packages-update",
-		"plugin-zip": "wp-scripts plugin-zip",
-		"start": "wp-scripts start"
-	},
-	"author": "K.J. Roelke",
-	"license": "GPL-3.0-or-later",
-	"devDependencies": {
-		"@wordpress/scripts": "^27.2.0"
-	}
+  "name": "kjr-wordpress-recipe-plugin",
+  "version": "1.0.0",
+  "description": "A WordPress",
+  "main": "build/index.js",
+  "prettier": "@wordpress/prettier-config",
+  "browserslist": [
+    "extends @wordpress/browserslist-config"
+  ],
+  "scripts": {
+    "build": "wp-scripts build",
+    "check-engines": "wp-scripts check-engines",
+    "packages-update": "wp-scripts packages-update",
+    "plugin-zip": "wp-scripts plugin-zip",
+    "start": "wp-scripts start"
+  },
+  "author": "K.J. Roelke",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "@types/wordpress__block-editor": "^11.5.10",
+    "@types/wordpress__components": "^23.0.11",
+    "@wordpress/scripts": "^27.2.0",
+    "wp-types": "^3.64.0"
+  },
+  "dependencies": {
+    "react": "latest",
+    "react-dom": "latest"
+  }
 }

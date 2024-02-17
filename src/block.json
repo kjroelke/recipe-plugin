@@ -9,10 +9,19 @@
 	"version": "1.0.0",
 	"textdomain": "kjr-recipe",
 	"attributes": {
-		"message": {
-			"type": "string",
-			"source": "html",
-			"selector": ".message"
+		"ingredients": {
+			"type": "array",
+			"default": [
+				{
+					"quantity": "",
+					"unit": "",
+					"name": ""
+				}
+			]
+		},
+		"servingSize": {
+			"type": "number",
+			"default": 6
 		}
 	},
 	"script": "file:./index.js"
