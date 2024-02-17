@@ -1,0 +1,19 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "kjr/recipe-block",
+	"title": "Roelke Recipe Block",
+	"category": "text",
+	"icon": "carrot",
+	"description": "A simple way to add a recipe to your post",
+	"version": "1.0.0",
+	"textdomain": "kjr-recipe",
+	"attributes": {
+		"message": {
+			"type": "string",
+			"source": "html",
+			"selector": ".message"
+		}
+	},
+	"script": "file:./index.js"
+}

@@ -1,0 +1,18 @@
+{
+	"name": "kjr/recipe-plugin",
+	"description": "A simple recipe plugin for WordPress + Gutenberg",
+	"type": "project",
+	"require-dev": {
+		"wp-coding-standards/wpcs": "*"
+	},
+	"authors": [
+		{
+			"name": "K.J. ROelke"
+		}
+	],
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	}
+}
